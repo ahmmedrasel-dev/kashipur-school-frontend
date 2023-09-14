@@ -86,10 +86,10 @@ $(function() {
         BasicSlider.slick({
             autoplay: true,
             autoplaySpeed: 10000,
-            pauseOnHover: true,
+            pauseOnHover: false,
             dots: false,
             fade: true,
-			      arrows: false,
+			      arrows: true,
             prevArrow:'<span class="prev"><i class="fa fa-angle-left"></i></span>',
             nextArrow: '<span class="next"><i class="fa fa-angle-right"></i></span>',
             responsive: [
@@ -149,9 +149,6 @@ $(function() {
             slidesToScroll: 1
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
         ]
     });
     
@@ -247,9 +244,6 @@ $(function() {
             slidesToScroll: 1
           }
         }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
         ]
     });
     
