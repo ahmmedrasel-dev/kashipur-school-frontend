@@ -452,6 +452,8 @@
 
 .logo {
 	text-align: center;
+	width: 120px;
+	margin: 0 auto;
 }
 
 .support-button {
@@ -760,6 +762,20 @@
 /* Large Mobile :480px. */
 @media only screen and  (max-width: 575.98px) {
 
+	
+.logo {
+	width: 120px !important;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.institute h1 {
+	font-size: 25px;
+}
+.institute h6{
+	font-size: 16px;
+}
+
 .main-btn {
 	padding: 0 20px;
 	font-size: 14px;
@@ -811,9 +827,6 @@
 }
 .search-box .serach-form button {
 	left: 80%;
-}
-.logo {
-	text-align: center;
 }
 
 .header-contact ul li {
@@ -867,6 +880,9 @@
 }
 .about-bg {
 	width: 100%;
+}
+.apply-cont{
+	height: 800px;
 }
 .apply .apply-cont {
 	padding: 25px 30px 30px;
@@ -1243,10 +1259,6 @@
 	padding-bottom: 200px;
 	padding-top: 100px;
 }
-.category {
-	margin-top: -100px;
-}
-
 #about-part {
 	padding-bottom: 170px;
 	padding-top: 15px;
