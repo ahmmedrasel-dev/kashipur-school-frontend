@@ -54,7 +54,7 @@
 img {
 	max-width: 100%;
 }
-
+a,
 a:focus,
 input:focus,
 textarea:focus,
@@ -164,7 +164,6 @@ p {
 
 /*===== All Section Title Style =====*/
 
-.section-title{}
 .section-title h5{
     color: #07294d;
     position: relative;
@@ -608,7 +607,6 @@ p {
     top: -7px;
 }
 
-.right-icon{}
 .right-icon ul li{
     display: inline-block;
     margin-right: 17px;
