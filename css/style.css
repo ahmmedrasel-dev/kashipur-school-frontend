@@ -1,18 +1,10 @@
-/*
-  Theme Name: Edubin - LMS Education HTML Template
-  Author: ZeTheme
-  Author URL: https://themeforest.net/user/pixelcurve
-  Support: zetheme24@gmail.com
-  Description: Creative  HTML5 template.
-  Version: 1.1
-*/
 
 /* CSS Index 
 -----------------------------------
 1. Theme default
 2. HEADER
 3. SLIDER
-4. CATEGORY
+4. important_links
 5. ABOUT
 6. APPLY
 7. COURSE
@@ -22,7 +14,7 @@
 11. TEASTIMONIAL
 12. NEWS
 13. FOOTER
-14. CATEGORY 2
+14. important_links 2
 15. COURSE 2
 16. COUNTER
 17. TEACHERS 2
@@ -979,7 +971,7 @@ p {
 
 
 /*=====================================================
-    4. CATEGORY css 
+    4. important_links css 
 ======================================================*/
 
 .color-1{
@@ -992,32 +984,32 @@ p {
     background-color: #ff6f6f;
 }
 
-.category{
+.important_links{
     background-color: #07294d;
     border-radius: 10px;
 }
 
-#category-part {
+#important_links-part {
     margin: 80px 0;
 }
-.category-text h2{
+.important_links-text h2{
     font-size: 36px;
     color: #fff;
     padding: 0 50px;
 }
 
-.singel-category {
+.singel-important_links {
 	padding: 20px 0;
 	border-radius: 5px;
 	display: block;
 }
-.singel-category .icon{
+.singel-important_links .icon{
     display: inline-block;
 }
-.singel-category .cont {
+.singel-important_links .cont {
 	display: block;
 }
-.singel-category .cont span{
+.singel-important_links .cont span{
     color: #fff;
     font-size: 18px;
     padding-top: 15px;
@@ -1025,11 +1017,11 @@ p {
     font-weight: 700;
 }
 
-.category-slied{}
-.category-slied a{
+.important_links-slied{}
+.important_links-slied a{
     display: block;
 }
-.category-slied .slick-arrow {
+.important_links-slied .slick-arrow {
 	position: absolute;
 	top: 50%;
 	right: -50px;
@@ -1037,12 +1029,12 @@ p {
 	transform: translateY(-50%);
 }
 
-.category-slied .prev.slick-arrow{
+.important_links-slied .prev.slick-arrow{
     right: auto;
     left: -50px;
 }
 
-.category-slied .slick-arrow i{
+.important_links-slied .slick-arrow i{
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -1055,7 +1047,7 @@ p {
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
-.category-slied .slick-arrow i:hover{
+.important_links-slied .slick-arrow i:hover{
     background-color: #ffc600;
 }
 
@@ -1095,38 +1087,38 @@ p {
     padding-top: 30px;
 }
 
-.about-event{
+.about-notice{
     -webkit-box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
     box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
     padding: 65px 70px 37px;
     background-color: rgba(255, 255, 255, 0.95);
 }
-.about-event .event-title h3{
+.about-notice .event-title h3{
     font-size: 36px;
     color: #000;
     padding-bottom: 5px;
 }
-.about-event ul li .singel-event{
+.about-notice ul li .singel-notice{
     padding: 15px 0;
     border-bottom: 1px solid #cecece;
 }
-.about-event ul li:last-child .singel-event{
+.about-notice ul li:last-child .singel-notice{
     border-bottom: 0;
 }
 
-.about-event ul li .singel-event span{
+.about-notice ul li .singel-notice span{
     font-size: 14px;
     color: #8a8a8a;
     margin-right: 20px;
 }
-.about-event ul li .singel-event span i{
+.about-notice ul li .singel-notice span i{
     color: #ffc600;
     margin-right: 3px;
 }
-.about-event ul li .singel-event a{
+.about-notice ul li .singel-notice a{
     display: block;
 }
-.about-event ul li .singel-event a h4{
+.about-notice ul li .singel-notice a h4{
     padding-top: 5px;
     padding-bottom: 10px;
     color: #000;
@@ -1134,7 +1126,7 @@ p {
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
-.about-event ul li .singel-event a:hover h4{
+.about-notice ul li .singel-notice a:hover h4{
     color: #ffc600;
 }
 
@@ -1142,38 +1134,38 @@ p {
 
 
 /*=====================================================
-    6. APPLY css 
+    6. SPEECH css 
 ======================================================*/
 
-#apply-aprt{
+#speech-head{
     padding: 80px 0;
 }
-
-
-.apply-color-1{
+.head_info{
     background-color: #07294d;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    text-align: center;
+    padding: 40px;
 }
-.apply-color-2{
+
+
+.head-speech{
     background-color: #092e56;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding: 40px;
 }
 
-.apply .apply-cont {
-    padding: 45px 50px 50px;
-}
-.apply .apply-cont h3{
+.head-speech h3{
     font-size: 30px;
     color: #fff;
     padding-bottom: 15px;
 }
-.apply .apply-cont p{
+.head-speech p{
     color: #fff;
-    padding-bottom: 45px;
+    padding-bottom: 40px;
 }
-.apply .apply-cont .main-btn:hover{
+.apply-cont .main-btn:hover{
     border-color: #ffc600;
 }
 
@@ -1848,21 +1840,21 @@ p {
 
 
 /*=====================================================
-    14. CATEGORY 2 css 
+    14. important_links 2 css 
 ======================================================*/
 
-.category-2-items{}
-.category-2-items .singel-items{
+.important_links-2-items{}
+.important_links-2-items .singel-items{
     position: relative;
 }
-.category-2-items .singel-items .items-image{
+.important_links-2-items .singel-items .items-image{
     position: relative;
 }
-.category-2-items .singel-items .items-image img{
+.important_links-2-items .singel-items .items-image img{
     width: 100%;
     border-radius: 5px;
 }
-.category-2-items .singel-items .items-image::before{
+.important_links-2-items .singel-items .items-image::before{
     content: '';
     position: absolute;
     top: 0;
@@ -1872,7 +1864,7 @@ p {
     background-color: rgba(7, 41, 77, 0.6);
     border-radius: 5px;
 }
-.category-2-items .singel-items .items-cont {
+.important_links-2-items .singel-items .items-cont {
     position: absolute;
     top: 50%;
     left: 0;
@@ -1880,43 +1872,43 @@ p {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-.category-2-items .singel-items .items-cont h5{
+.important_links-2-items .singel-items .items-cont h5{
     color: #fff;
     font-size: 18px;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
-.category-2-items .singel-items .items-cont span{
+.important_links-2-items .singel-items .items-cont span{
     font-size: 14px;
     color: #fff;
 }
-.category-2-items .singel-items .items-cont h5:hover{
+.important_links-2-items .singel-items .items-cont h5:hover{
     color: #ffc600;
 }
 
 
-.category-form {
+.important_links-form {
 	border-radius: 5px;
 	overflow: hidden;
 	-webkit-box-shadow: 0px 0px 75px 0px rgba(0,0,0,0.1);
 	box-shadow: 0px 0px 75px 0px rgba(0,0,0,0.1);
 	margin-top: -154px;
 }
-.category-form .form-title{
+.important_links-form .form-title{
     background-color: #07294d;
     padding-top: 35px;
     padding-bottom: 40px;
 }
-.category-form .form-title h3{
+.important_links-form .form-title h3{
     color: #ffc600;
     font-size: 36px;
 }
-.category-form .form-title span{
+.important_links-form .form-title span{
     font-size: 24px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
-.category-form .main-form{
+.important_links-form .main-form{
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
@@ -1924,10 +1916,10 @@ p {
     background-color: #fff;
     
 }
-.category-form .main-form .singel-form{
+.important_links-form .main-form .singel-form{
     margin-top: 20px;
 }
-.category-form .main-form .singel-form input{
+.important_links-form .main-form .singel-form input{
     width: 100%;
     height: 60px;
     padding: 0 30px;
@@ -1936,7 +1928,7 @@ p {
     border: 1px solid #a1a1a1;
     border-radius: 5px;
 }
-.category-form .main-form .singel-form .main-btn{
+.important_links-form .main-form .singel-form .main-btn{
     width: 100%;
     line-height: 60px;
     margin-top: 20px;
@@ -2277,26 +2269,26 @@ p {
     display: block;
 }
 
-.category-form-3{
+.important_links-form-3{
     margin-top: 0;
     position: relative;
     z-index: 5;
 }
-.category-form-3 .form-title {
+.important_links-form-3 .form-title {
 	background-color: #ffc600;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.category-form-3 .form-title h3 {
+.important_links-form-3 .form-title h3 {
 	color: #07294d;
 }
-.category-form-3 .form-title span {
+.important_links-form-3 .form-title span {
     font-weight: 600;
 }
-.category-form-3 .main-btn{
+.important_links-form-3 .main-btn{
     color: #fff;
 }
-.category-form-3 .main-btn:hover{
+.important_links-form-3 .main-btn:hover{
     color: #ffc600;
     border-color: #07294d;
 }
@@ -2495,7 +2487,7 @@ p {
 
 .corses-singel-left .course-terms ul li .review span,
 .corses-singel-left .course-terms ul li .teacher-name .name span,
-.corses-singel-left .course-terms ul li .course-category span{
+.corses-singel-left .course-terms ul li .course-important_links span{
     color: #8a8a8a;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -2503,7 +2495,7 @@ p {
 }
 
 .corses-singel-left .course-terms ul li .teacher-name .name h6,
-.corses-singel-left .course-terms ul li .course-category h6{
+.corses-singel-left .course-terms ul li .course-important_links h6{
     font-size: 16px;
     color: #24486e;
     font-weight: 700;

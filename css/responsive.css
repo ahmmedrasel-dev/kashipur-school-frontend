@@ -1,15 +1,5 @@
-/*
-  Theme Name: Edubin - LMS Education HTML Template
-  Author: Humayun Ahmed
-  Author URL: https://themeforest.net/user/pixelcurve
-  Support: humayunahmed82@gmail.com
-  Description: Creative  HTML5 template.
-  Version: 1.0
-*/
-
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-
 
 }
 
@@ -67,7 +57,7 @@
 	margin-right: 3px;
 }
 
-.category-form {
+.important_links-form {
 	margin-top: -197px;
 }
 .singel-course-2 > .thum .course-teacher .review {
@@ -85,7 +75,7 @@
 	font-size: 42px;
 }
 
-.category-form-3{
+.important_links-form-3{
     margin-top: 0;
 }
 
@@ -195,7 +185,7 @@
     display: block;
 }
 
-.category-text{
+.important_links-text{
     text-align: center;
 }
 
@@ -233,7 +223,7 @@
 .navigation-2.sticky .navbar .navbar-nav li a {
 	padding: 10px 0;
 }
-.category-form {
+.important_links-form {
 	margin-top: 50px;
 }
 
@@ -271,7 +261,7 @@
 	padding-bottom: 200px;
 	padding-top: 100px;
 }
-.category {
+.important_links {
 	margin-top: -100px;
 }
 
@@ -280,8 +270,8 @@
 	padding-top: 15px;
 }
 
-#apply-aprt {
-	padding-bottom: 70px;
+#speech-head {
+	padding: 70px;
 }
 #course-part {
 	padding-top: 65px;
@@ -324,7 +314,7 @@
 #event-part {
 	padding-top: 70px;
 }
-#category-3 {
+#important_links-3 {
 	padding-top: 40px;
 	padding-bottom: 70px;
 }
@@ -468,7 +458,7 @@
 	font-size: 46px;
 }
 
-.category-text{
+.important_links-text{
     text-align: center;
 }
 
@@ -505,7 +495,7 @@
 .navigation-2.sticky .navbar .navbar-nav li a {
 	padding: 10px 0;
 }
-.category-form {
+.important_links-form {
 	margin-top: 50px;
 }
 
@@ -611,7 +601,7 @@
 	padding-bottom: 200px;
 	padding-top: 100px;
 }
-.category {
+.important_links {
 	margin-top: -100px;
 }
 
@@ -620,7 +610,7 @@
 	padding-top: 15px;
 }
 
-#apply-aprt {
+#speech-head {
 	padding-bottom: 70px;
 }
 #course-part {
@@ -664,7 +654,7 @@
 #event-part {
 	padding-top: 70px;
 }
-#category-3 {
+#important_links-3 {
 	padding-top: 40px;
 	padding-bottom: 70px;
 }
@@ -858,24 +848,24 @@
 	font-weight: 400;
 }
 
-.category-text{
+.important_links-text{
     text-align: center;
 }
 
-.category-slied .prev.slick-arrow {
+.important_links-slied .prev.slick-arrow {
 	left: -30px;
 }
-.category-slied .slick-arrow {
+.important_links-slied .slick-arrow {
 	right: -30px;
 }
 
-.about-event {
+.about-notice {
 	padding: 30px 35px 10px;
 }
-.about-event .event-title h3 {
+.about-notice .notice-title h3 {
 	font-size: 28px;
 }
-.about-event ul li .singel-event h4 {
+.about-notice ul li .singel-notice h4 {
 	font-size: 18px;
 }
 .about-bg {
@@ -959,7 +949,7 @@
 .navigation-2.sticky .navbar .navbar-nav li a {
 	padding: 10px 0;
 }
-.category-form {
+.important_links-form {
 	margin-top: 50px;
 }
 
@@ -979,14 +969,14 @@
 	bottom: 70px;
 }
 
-.category-form .form-title h3 {
+.important_links-form .form-title h3 {
 	font-size: 28px;
 }
-.category-form .form-title h3 {
+.important_links-form .form-title h3 {
 	font-size: 28px;
 }
 
-.category-form .main-form {
+.important_links-form .main-form {
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -1079,7 +1069,7 @@
 .corses-singel-left .course-terms > ul > li {
 	margin-right: 0;
 }
-.corses-singel-left .course-terms ul li .course-category,
+.corses-singel-left .course-terms ul li .course-important_links,
 .corses-singel-left .course-terms ul li .review {
 	margin-top: 15px;
 }
@@ -1264,7 +1254,7 @@
 	padding-top: 15px;
 }
 
-#apply-aprt {
+#speech-head {
 	padding-bottom: 70px;
 }
 #course-part {
@@ -1308,7 +1298,7 @@
 #event-part {
 	padding-top: 70px;
 }
-#category-3 {
+#important_links-3 {
 	padding-top: 40px;
 	padding-bottom: 70px;
 }
