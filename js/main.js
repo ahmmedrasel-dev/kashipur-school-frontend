@@ -161,7 +161,7 @@ $(function() {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
           }
         },
@@ -291,9 +291,10 @@ $(function() {
     // Show or hide the sticky footer button
     $(window).on('scroll', function(event) {
         if($(this).scrollTop() > 600){
-            $('.back-to-top').fadeIn(200)
+            $('.back-to-top').fadeIn(300)
+            $('.back-to-top').css({"display": 'flex', 'justify-content': 'center', 'align-items': 'center'})
         } else{
-            $('.back-to-top').fadeOut(200)
+            $('.back-to-top').fadeOut(300)
         }
     });
     
@@ -377,18 +378,6 @@ $(function() {
       gallery:{
         enabled:true
       }
-    });
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }); 
     
 });

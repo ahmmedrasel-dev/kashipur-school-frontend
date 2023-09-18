@@ -400,8 +400,6 @@ p {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.header-contact{}
-.header-contact ul{}
 .header-contact ul li{
     display: inline-block;
     margin-right: 45px;
@@ -410,7 +408,6 @@ p {
     margin-right: 0;
 }
 
-.header-contact ul li img{}
 .header-contact ul li span {
 	color: #dee2e6;
 	font-size: 15px;
@@ -418,7 +415,6 @@ p {
 	margin-left: 10px;
 }
 
-.header-opening-time{}
 .header-opening-time p {
 	color: #dee2e6;
 	font-size: 15px;
@@ -431,7 +427,6 @@ p {
     border-bottom: 1px solid #cecece;
 }
 
-.support-button{}
 .support-button .support {
 	display: -moz-flex;
 	display: -ms-flex;
@@ -444,7 +439,6 @@ p {
 	align-items: flex-start;
 	margin-top: 7px;
 }
-.support-button .support .icon{}
 .support-button .support .cont{
     margin-left: 15px;
     margin-top: -2px;
@@ -466,8 +460,6 @@ p {
 }
 
 /*===== Header Menu =====*/
-
-.navigation{}
 
 .navigation.sticky {
 	position: fixed;
@@ -509,7 +501,7 @@ p {
     padding: 0;
 }
 
-.navigation .navbar .navbar-nav{}
+
 .navigation .navbar .navbar-nav li{
     margin-right: 40px;
     position: relative;
@@ -1721,17 +1713,17 @@ p {
     margin-right: 0;
 }
 
-.footer-about ul li a{
+.footer-about ul li a {
     width: 35px;
-    line-height: 35px;
+    height: 35px;
     font-size: 15px;
     color: #fff;
     border-radius: 50%;
-    text-align: center;
     background-color: #021d3a;
-    -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-about ul li a:hover{
     background-color: #ffc600;

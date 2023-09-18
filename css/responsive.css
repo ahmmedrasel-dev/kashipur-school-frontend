@@ -8,11 +8,30 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
 .navigation .navbar .navbar-nav li {
-	margin-right: 35px;
+	margin-right: 25px;
 }
 .singel-course .cont {
 	padding-left: 25px;
 	padding-right: 25px;
+}
+
+.head-speech {
+    padding: 17px;
+}
+
+.head-speech p {
+    padding-bottom: 0px;
+	font-size: 16px;
+}
+
+.fast_para {
+	margin-bottom: 18px;
+}
+
+.singel-news .news-cont a h3 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .singel-course .course-teacher .name {
 	margin-left: 5px;
