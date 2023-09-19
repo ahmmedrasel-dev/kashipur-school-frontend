@@ -2288,10 +2288,15 @@ p {
     20. PAGE BANNER  css 
 ======================================================*/
 
-.page-banner-cont{
-    position: relative;
+.page-banner-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     z-index: 5;
+    position: relative;
 }
+
 .page-banner-cont h2{
     font-size: 52px;
     color: #fff;
